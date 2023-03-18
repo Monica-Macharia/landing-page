@@ -1,0 +1,88 @@
+<head>
+    <style>
+       .pets{
+         float: right;
+         padding: 0 40px;
+         display: flex;
+         list-style: none;
+         
+    
+       }
+       .pets li{
+           padding: 10px 30px;
+       } 
+    
+       .input{
+        background-image: url("../Code/googleicon.webp"),url("../Code/googleicon.webp");
+        background-repeat: no-repeat;
+        background-position: left center, right center;
+        background-size: 27px;
+        padding: 5px 70px;
+        border-radius: 10px;
+        background-color: magenta;
+        
+       }
+       .google-search{
+           background-color: grey;
+           margin: 10px 0 0 30px ;
+           padding: 5px;
+                
+       }
+       .google-search:hover{
+           background-color: whitesmoke;
+           transition: 2s;
+           box-shadow: 30px 30px;
+       }
+       .googlelogo{
+           height: 55px;
+           
+       }
+       /* @media screen and (max-width: 600px) {
+        ul{
+            display: block;
+            
+        }
+        
+    
+    } */
+    p:hover + .hide{
+        display: block;
+        
+    }
+    .hide{
+            display: none;
+            
+        }
+        
+    
+    </style>
+    </head>
+    <body>
+        <ul class="pets">
+        <li>cats</li>
+        <li>dogs</li>
+        <li>cows</li>
+    </ul>
+    <input class="input">
+    
+    <div>
+        <button class="google-search"><a href="">Google Search</a></button>
+    
+        <button class="google-search"><a href="https://www.google.com/doodles">I'm Feeling Lucky</a></button>
+    </div>
+    
+    <img class="googlelogo" src="../Code/googlelog.png">
+    
+    <div class="container">
+        <p>list of people</p>
+        <ul class="hide">
+            <li>girl</li>
+            <li>boy</li>
+            <li>female</li>
+            <li>male</li>
+            <li>mother</li>
+        </ul>
+    </div>
+    <!-- <img src="../Code/googleicon.webp"> -->
+    </body>
+    
